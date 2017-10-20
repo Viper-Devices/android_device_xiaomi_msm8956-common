@@ -126,7 +126,6 @@ ifeq ($(HOST_OS),linux)
     endif
   endif
 endif
-WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
 
 # Display
 MAX_VIRTUAL_DISPLAY_DIMENSION := 2048
