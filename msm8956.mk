@@ -66,12 +66,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
 # ANT+
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library \
     libantradio
 
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
 
 # Audio
@@ -218,7 +218,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.text_large_cache_height=2048
 
 # IPA Manager
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
