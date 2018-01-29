@@ -196,10 +196,6 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf
 
-# HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
-
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@1.0-impl \
