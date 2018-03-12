@@ -1,1 +1,1 @@
-# android_device_xiaomi_msm8956-common
+Shared device tree for Xiaomi msm8956 devices
